@@ -1,0 +1,23 @@
+---
+- hosts: "webservers"
+  tasks:
+  - name: checking service status
+    command: systemctl status "{{ item }}"
+    with_items:
+    - nginx
+    register: result
+    ignore_errors: yes
+  - name: showing report
+    debug:
+     var: result
+- hosts: "dbservers"
+  tasks:
+  - name: checking service status
+    command: systemctl status "{{ item }}"
+    with_items:
+    - mariadb
+    register: result
+    ignore_errors: yes
+  - name: showing report
+    debug:
+     var: result

@@ -1,0 +1,3 @@
+---
+# defaults file for installmariadb
+mariadb_version: "10.3"
