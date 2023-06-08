@@ -134,7 +134,7 @@ output "external_ip_address_vm_1" {
 
 ---
 
-#Решение:
+# Решение:
 https://docs.google.com/document/d/1XOALjLQIgIw-hvDGMMKqL93dLQjfA2doEoZ9SCGpZwA/edit#heading=h.e3zz0xlfahoc
 
 ---
