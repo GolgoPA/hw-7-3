@@ -131,3 +131,10 @@ output "external_ip_address_vm_1" {
 2. [Руководство по Terraform](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/doc). 
 3. [Ansible User Guide](https://docs.ansible.com/ansible/latest/user_guide/index.html).
 1. [Terraform Documentation](https://www.terraform.io/docs/index.html).
+
+---
+
+#Решение:
+https://docs.google.com/document/d/1XOALjLQIgIw-hvDGMMKqL93dLQjfA2doEoZ9SCGpZwA/edit#heading=h.e3zz0xlfahoc
+
+---
